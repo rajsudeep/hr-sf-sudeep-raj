@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+
+import CreatePost from './pages/CreatePost/CreatePost';
+import Blog from './pages/Blog/Blog';
+
 import reportWebVitals from './reportWebVitals';
+
+import './index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Route exact path="/">
+        <Redirect to="/blog" />
+      </Route>
+      <Route path="/blog" component={Blog} />
+      <Route path="/create" component={CreatePost} />
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

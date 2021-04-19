@@ -1,0 +1,47 @@
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 2rem solid #cd6698;
+  min-height: 100vh;
+  background-color: #facdd7;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 12%;
+  background-color: #facdd7;
+  border-bottom: 2rem solid #cd6698;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #facdd7;
+}
+
+.divider {
+  border-left: 2rem solid #cd6698;
+}
+
+.past {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-left: 2rem solid #f2acc0;
+  border-top: 2rem solid #f2acc0;
+  height: 86.5vh;
+  overflow-y: auto;
+}
+
+.detailed {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  border-left: 2rem solid #f2acc0;
+  border-top: 2rem solid #f2acc0;
+  height: 86.5vh;
+  overflow-y: auto;
+}

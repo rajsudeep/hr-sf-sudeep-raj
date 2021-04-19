@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem 20rem 5rem 5rem;
+}
+
+.subContainer {
+    width: 100%;
+}
+
+.title {
+    font-size: 3.5rem;
+    margin-bottom: 4rem;
+    color: #cd6698;
+    font-weight: bold;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.titleInput {
+    width: 50%;
+    color: #cd6698;
+}
+
+.textInput {
+    width: 50%;
+    color: #cd6698;
+}
+
+.valueTitle {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #cd6698;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.btn {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background-color: #cd6698;
+}

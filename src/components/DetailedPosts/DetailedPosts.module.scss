@@ -1,0 +1,36 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin-top: 4rem;
+    width: 90%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.postContainer {
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#cd6698;
+}
+
+.editBtn {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    color: #cd6698;
+}
+
+.text {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
